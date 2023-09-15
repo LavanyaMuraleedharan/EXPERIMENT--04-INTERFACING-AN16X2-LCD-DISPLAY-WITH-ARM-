@@ -176,9 +176,8 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 ```
 NAME:LAVANYA M
 REG NO:212222110021
-```
-```
-## PROGRAM :
+
+  PROGRAM :
   MX_GPIO_Init();
   Lcd_PortType ports[] = {GPIOA,GPIOA,GPIOA,GPIOA};
   Lcd_PinType pins[]={GPIO_PIN_3,GPIO_PIN_2,GPIO_PIN_1,GPIO_PIN_0};
