@@ -195,7 +195,8 @@ REG NO:212222110021
 
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- 
+ ![Screenshot 2023-09-15 163112](https://github.com/LavanyaMuraleedharan/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/120103862/b7b0ffc9-7342-427e-8bab-68e9b9ce45e3)
+
  
 ## Result :
 Interfacing a lcd display with ARM microcontroller are simulated in proteus and the results are verified.
