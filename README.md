@@ -173,12 +173,27 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 
 ## STM 32 CUBE PROGRAM :
-
-
+```
+NAME:LAVANYA M
+REG NO:212222110021
+```
+```
+## PROGRAM :
+  MX_GPIO_Init();
+  Lcd_PortType ports[] = {GPIOA,GPIOA,GPIOA,GPIOA};
+  Lcd_PinType pins[]={GPIO_PIN_3,GPIO_PIN_2,GPIO_PIN_1,GPIO_PIN_0};
+  Lcd_HandleTypeDef lcd;
+  lcd = Lcd_create(ports,pins,GPIOB,GPIO_PIN_0,GPIOB,GPIO_PIN_1,LCD_4_BIT_MODE);
+  Lcd_cursor(&lcd, 0,0);
+  Lcd_string(&lcd, "DEPT CSE(IOT)");
+  Lcd_cursor(&lcd, 1,0);
+  Lcd_string(&lcd, "Lavanya");
+```
 
 
 ## Output screen shots of proteus  :
- 
+ ![pmc exp04](https://github.com/LavanyaMuraleedharan/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/120103862/41d7aa05-9c19-4892-ad13-1cdbaf081feb)
+
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  
